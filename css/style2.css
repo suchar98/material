@@ -1,0 +1,46 @@
+html, body, .block {
+        height: 100%;
+      }
+nav ul li a:hover, nav ul li a.active {
+        background-color: rgba(0,0,0,.1); 
+        }
+	
+	// Class for when element is above threshold
+.pin-top {
+    position: relative;
+  }
+
+  // Class for when element is below threshold
+.pin-bottom {
+    position: relative;
+  }
+
+  // Class for when element is pinned
+.pinned {
+    position: fixed !important;
+  }  
+
+article
+{
+	float: center;
+	color: white;
+	font-size: 25px;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+}  
+
+.lista
+{
+	color: black !important; 
+	font-size: 22px;
+}
+.obrazek_srodek
+{
+	text-align: center;
+}
+
+.footer
+{
+	font-size: 17px;
+}
