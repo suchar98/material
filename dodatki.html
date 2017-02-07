@@ -15,27 +15,28 @@
 		<title> Sieci komputerowe </title>
 	</head>
 	<body>
-		  <nav class="light-blue lighten-1" role="navigation">
-    <div class="nav-wrapper container"><a id="logo-container" class="brand-logo">Sieci komputerowe</a>
-      <ul class="right hide-on-med-and-down">
-        <li><a class='dropdown-button'  data-activates='dropdown1'><i class="material-icons">reorder</i></a></li>
-      </ul>
-
-	  <ul id='dropdown1' class='dropdown-content'>
-    <li><a href="#!" class="lista">Lekcja 1</a></li>
-	<li class="divider"></li>
-    <li><a href="#!" class="lista">Lekcja 2</a></li>
-    <li class="divider"></li>
-    <li><a href="#!" class="lista">Dodatki</a></li>
-	<li class="divider"></li>
-  </ul>
-	  
-      <ul id="nav-mobile" class="side-nav">
-        <li><a href="#">Navbar Link</a></li>
-      </ul>
-      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+		
+		<header class="site-header">
+    <div class="navbar-fixed">
+        <nav class="{{ site.css }} darken-2 waves-effect waves-light">
+            <div class="nav-wrapper">
+               <div class="container">
+                <a internal href="{{ site.baseurl }}/" class="brand-logo"><i class="mdi-communication-chat"></i> {{site.title}}</a>
+                <ul id="nav-mobile" class="right side-nav">
+                    <li><a internal href="{{ site.baseurl }}/">Lekcja1</a>
+                    </li>
+                    <li><a internal href="{{ site.baseurl }}/lekcja2/">Lekcja2</a>
+                    </li>
+                    <li><a internal href="https://suchar98.github.io/material/dodatki.html">Twoja sieć</a>
+                    </li>
+                </ul>
+                <a class="button-collapse" href="#" data-activates="nav-mobile"><i class="mdi-navigation-menu"></i></a>
+            </div>
+            </div>
+        </nav>
     </div>
-  </nav>
+</header>
+		
   <div class="section no-pad-bot" id="index-banner">
     <div class="container">
       <br><br>
